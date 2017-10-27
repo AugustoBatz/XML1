@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<agenda>    
+    
+    
+    <contactos>
+        <ontacto id="1" inicial="p"><!--Identificador es un numero unico asignado a un elemento-->
+         <nombre>Pedro</nombre>
+        <telefono>555555</telefono> 
+      
+        </ontacto>
+        <ontacto id="2">
+        <nombre>Pablo</nombre>
+        <telefono>6666666</telefono>
+        </ontacto>     
+    </contactos>
+    <libros>
+        <libro id="1">
+            <nombre>Fisica</nombre>ç
+            <prestadopor contacto="1"/>
+        </libro>
+        <libro id="1">
+            <nombre>Fisica</nombre>
+        </libro>
+        <libro id="2">
+            <nombre>Matematica</nombre>
+            <prestadopor contacto="2 3" />
+        </libro>
+        <libro id="3">
+            <nombre>Algebra</nombre>
+            <prestadopor contacto="1" />
+        </libro>
+        <libro id="4">
+            <nombre>Ecuaciones Diferenciales</nombre>
+            <prestadopor contacto="" />
+        </libro>
+        
+    </libros>
+    
+</agenda>
