@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT agenda (contactos* , libros*)>
+<!ELEMENT contactos (contacto*)>
+<!ELEMENT contacto (nombre,telefono)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+
+
+

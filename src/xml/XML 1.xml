@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE agenda SYSTEM 'DTDOTRO.dtd'>
+<agenda>    
+    
+    
+    <contactos>
+        <contacto id="1" inicial="p"><!--Identificador es un numero unico asignado a un elemento-->
+         <nombre>Pedro</nombre>
+        <telefono>555555</telefono> 
+      
+        </contacto>
+        <contacto id="2">
+        <nombre>Pablo</nombre>
+        <telefono>6666666</telefono>
+        </contacto>     
+    </contactos>
+    <libros>
+        <libro id="1">
+            <nombre>Fisica</nombre>ç
+            <prestadopor contacto="1"/>
+        </libro>
+        <libro id="1">
+            <nombre>Fisica</nombre>
+        </libro>
+        <libro id="2">
+            <nombre>Matematica</nombre>
+            <prestadopor contacto="2 3" />
+        </libro>
+        <libro id="3">
+            <nombre>Algebra</nombre>
+            <prestadopor contacto="1" />
+        </libro>
+        <libro id="4">
+            <nombre>Ecuaciones Diferenciales</nombre>
+            <prestadopor contacto="" />
+        </libro>
+        
+    </libros>
+    
+</agenda>
