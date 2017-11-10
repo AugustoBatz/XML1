@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!ELEMENT agenda (contactos* , libros*)>
-<!ELEMENT libros (libro*)>
 <!ELEMENT contactos (contacto*)>
-<!ELEMENT contacto (nombre*,telefono*)>
-
-
-<!ELEMENT telefono (#PCDATA)>
-<!ELEMENT libro (nombre*,prestadopor*)>
-<!ELEMENT prestadopor (#PCDATA)>
+<!ELEMENT libros (libro*)>
+<!ELEMENT contacto (nombre,telefono*)>
+<!ELEMENT libro (nombre,prestadopor)>
 <!ELEMENT nombre (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT prestadopor (#PCDATA)>
+
+
+
+
 
 
 
 <!ATTLIST contacto id CDATA #REQUIRED>
-
 <!ATTLIST libro id CDATA #REQUIRED>
+<!ATTLIST prestadopor contacto CDATA #REQUIRED>
 
 
 

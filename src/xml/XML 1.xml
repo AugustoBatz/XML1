@@ -22,6 +22,7 @@
         </libro>
         <libro id="1">
             <nombre>Fisica</nombre>
+            <prestadopor contacto="5 6" />
         </libro>
         <libro id="2">
             <nombre>Matematica</nombre>
