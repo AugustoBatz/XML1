@@ -5,7 +5,7 @@
     
     
     <contactos>
-        <contacto id="1" inicial="p"><!--Identificador es un numero unico asignado a un elemento-->
+        <contacto id="1" ><!--Identificador es un numero unico asignado a un elemento-->
          <nombre>Pedro</nombre>
         <telefono>555555</telefono> 
       
